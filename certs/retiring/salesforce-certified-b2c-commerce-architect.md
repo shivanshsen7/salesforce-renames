@@ -1,0 +1,23 @@
+---
+type: Retiring Certification
+title: Salesforce Certified B2C Commerce Architect
+description: "Retiring 2027-02-01: Salesforce Certified B2C Commerce Architect."
+tags: [certification, retiring]
+status: deprecated
+stale_after: 2027-02-01
+sources:
+  - id: sf-retirement-faq
+    resource: "https://help.salesforce.com/s/articleView?id=005360289"
+    title: 2027 Certification Retirements FAQ
+generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+certName: Salesforce Certified B2C Commerce Architect
+retirementDate: 2027-02-01
+lastDayToRegister: 2026-07-24
+lastDayToTest: 2026-08-31
+---
+
+# Path forward
+
+Comparable learning content is available on the Trailhead learning platform, Salesforce B2C Commerce Online Documentation, and Trailhead Academy courses B2C Commerce Developer with SFRA (CCD102) and B2C Commerce Merchant (CCM101).[^sf-retirement-faq]
+
+[^sf-retirement-faq]: 2027 Certification Retirements FAQ

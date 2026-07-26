@@ -1,0 +1,26 @@
+---
+type: Product Rename History
+title: "MuleSoft for Flow: Integration"
+description: "Originally launched as \"MuleSoft Composer\" (2022). 1 name change since. Now known as \"MuleSoft for Flow: Integration\" (as of 2024)."
+tags: [Integration]
+status: stable
+sources:
+  - id: renameforce
+    resource: "https://renameforce.com/renameforce-data.json"
+    title: Renameforce dataset
+generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+vendorOrigin: MuleSoft
+---
+
+# Timeline
+
+- **MuleSoft Composer** (2022 – 2024)
+- **MuleSoft for Flow: Integration** (2024 – present)
+
+# Aliases
+
+`Composer`, `MuleSoft Flow Integration`, `Flow Integration`
+
+Sourced from the renameforce.com community dataset.[^renameforce]
+
+[^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)

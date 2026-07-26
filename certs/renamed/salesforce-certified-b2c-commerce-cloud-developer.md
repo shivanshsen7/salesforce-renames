@@ -1,0 +1,19 @@
+---
+type: Renamed Certification
+title: Salesforce Certified B2C Commerce Cloud Developer → Salesforce Certified B2C Commerce Developer
+description: "Renamed 2026-07-24: \"Salesforce Certified B2C Commerce Cloud Developer\" \u2192 \"Salesforce Certified B2C Commerce Developer\"."
+tags: [certification, renamed]
+status: stable
+sources:
+  - id: sf-name-changes-faq
+    resource: "https://help.salesforce.com/s/articleView?id=005298915"
+    title: Certification Name Changes FAQ
+generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+oldName: Salesforce Certified B2C Commerce Cloud Developer
+newName: Salesforce Certified B2C Commerce Developer
+effectiveDate: 2026-07-24
+---
+
+Cosmetic rename only — no re-exam, no change to exam content or maintenance requirements. Trailblazer profiles update automatically.[^sf-name-changes-faq]
+
+[^sf-name-changes-faq]: Certification Name Changes FAQ
