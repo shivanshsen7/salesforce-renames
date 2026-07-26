@@ -78,7 +78,7 @@ sources behind every one of these.
 
 | You want... | Go to |
 |---|---|
-| Raw data to `grep`/`jq` — no cloning, no markdown parsing | [`renames.jsonl`](renames.jsonl) |
+| Every entry as named fields — `jq` a specific date instead of grepping prose | [`renames.jsonl`](renames.jsonl) |
 | To browse certifications retiring Feb 2027 | [`certs/retiring/`](certs/retiring/) (24, each its own file) |
 | To browse certifications with a cosmetic name change | [`certs/renamed/`](certs/renamed/) (16) |
 | To browse product/platform rename history since 2000 | [`products/`](products/) (92) |
