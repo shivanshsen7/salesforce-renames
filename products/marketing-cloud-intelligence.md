@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://invadosolutions.com/pardot-marketing/datorama-is-now-marketing-cloud-intelligence/"
     title: Datorama is now Marketing Cloud Intelligence - Invado Solutions
+  - id: corroboration
+    resource: "https://www.salesforce.com/blog/next-gen-marketing-cloud-vision-product-name-change/"
+    title: "Salesforce Blog - Next-Gen Marketing Cloud Vision Product Name Change"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Datorama
@@ -20,7 +23,7 @@ vendorOrigin: Datorama
 
 - **Datorama** (2012 – 2020)
 - **Salesforce Datorama** (2020 – 2022-05)
-- **Marketing Cloud Intelligence** (2022-06 – present)
+- **Marketing Cloud Intelligence** (2022-10 – present)
 
 # Aliases
 
@@ -33,3 +36,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Datorama/Salesforce Datorama renamed to Marketing Cloud Intelligence in 2022 as part of Marketing Cloud consolidation.
+
+# Verification note
+
+A second pass found the official rename date was October 13, 2022, not June 2022 as originally recorded — corrected.

@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://techcrunch.com/2019/04/17/salesforce-is-buying-mapanything-a-startup-that-raised-over-84-million/"
     title: "Salesforce is buying MapAnything, a startup that raised over $84 million | TechCrunch"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/salesforce-closes-acquisition-of-mapanything/"
+    title: "Salesforce - Closes Acquisition of MapAnything"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: MapAnything

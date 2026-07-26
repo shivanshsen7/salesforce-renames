@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.salesforceben.com/pardot-renamed-marketing-cloud-account-engagement/"
     title: "Pardot Renamed \"Marketing Cloud Account Engagement\" | Salesforce Ben"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/salesforce-launches-the-next-generation-of-b2b-marketing-automation/"
+    title: "Salesforce - Next Generation of B2B Marketing Automation"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Pardot

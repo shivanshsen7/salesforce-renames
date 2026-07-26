@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.tableau.com/blog/what-is-tableau-next"
     title: "What is Tableau Next? | Tableau Blog"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/tableau-ai-dreamforce-24/"
+    title: "Salesforce - Tableau AI at Dreamforce 24"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Tableau

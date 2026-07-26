@@ -49,17 +49,30 @@ curl -s https://raw.githubusercontent.com/shivanshsen7/salesforce-renames/main/r
 - Every concept carries `generated: {by: claude-sonnet-5/claude-code, ...}`. A
   follow-up automated fact-check pass (`claude-haiku-4-5/fact-check-agent`, one
   agent per product category plus one for all 40 certifications) independently
-  web-searched for a second source per entry: **123 of 132 concepts** now carry
-  a `verified` field and a second `sources` entry, moving them to
+  web-searched for a second source per entry, moving most concepts to
   **machine-confirmed** trust tier — still not the same as **human-reviewed**,
   since no person has checked these line-by-line yet.
-- **4 discrepancies were found and flagged, not resolved** — each concept has
-  a "Discrepancy flagged" body section and stayed `unverified` rather than
-  being marked confirmed despite having a second source, since that source
-  *contradicts* the original claim rather than confirms it. See `log.md` for
-  the full list. The remaining unflagged entries stayed `unverified` simply
-  because no independent source was found in the time budget, not because
-  anything is wrong with them.
+- **A second pass re-checked the 9 concepts the first pass left unresolved**,
+  restricted to official Salesforce sources only rather than renameforce.com
+  or general blogs — discovery via `WebSearch`/Exa, never by scraping Google's
+  results page directly.
+- **A third pass then audited source *quality*, not just presence** — it
+  turned out "machine-confirmed" had been overstating things: all 40
+  certifications' second source was a blog aggregator (apexhours.com,
+  salesforcetrail.com), and 43 of 92 products were the same. All 40 certs
+  were re-checked by fetching Salesforce's two canonical FAQ pages live
+  (zero drift found); 42 products were re-researched in 7 category-grouped
+  batches against official domains only. This pass also caught a subagent
+  citing renameforce.com as its own corroboration — circular, not
+  independent — and reverted those two false confirmations.
+- **Net result**: all 40 certs are directly re-confirmed against live
+  official sources; of 92 products, **71 are machine-confirmed** against
+  official-domain sources, **8 are flagged as actively disputed** (a
+  source-level conflict was found, not just an absent second source — e.g.
+  release notes and this bundle's own certification data disagree on
+  whether Service Cloud and Field Service have actually been renamed yet),
+  and **13 remain genuinely unconfirmed**. See `log.md`'s three dated
+  verification entries for the full reasoning, concept by concept.
 - If you spot an error, open an issue or a PR — a human review pass will
   upgrade entries to `verified: {by: human:..., at: ...}` as it happens.
 

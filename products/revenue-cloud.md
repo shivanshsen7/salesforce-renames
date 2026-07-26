@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.forsysinc.com/blog/what-is-agentforce-revenue-management-the-complete-2026-guide/"
     title: What is Agentforce Revenue Management? The Complete 2026 Guide - Forsys
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/agentforce-for-revenue-announcement/"
+    title: "Salesforce - Agentforce for Revenue Announcement"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: SteelBrick/Salesforce
@@ -35,3 +38,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Confirmed renamed to Agentforce Revenue Management at Dreamforce 2025, previously Revenue Cloud Advanced.
+
+# Verification note
+
+A second pass confirmed "Revenue Lifecycle Management" (Spring 2024) and "Agentforce Revenue Management" (2025) via official Salesforce sources. The claimed second "Revenue Cloud" period and "Revenue Cloud Advanced" stage in between could not be independently confirmed — this entry has an unusually complex churn (Revenue Cloud appears twice in the timeline) and remains only partially verified.

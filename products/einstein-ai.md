@@ -35,3 +35,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Agentforce 360 confirmed October 2025 rename from Agentforce (formerly Einstein/Einstein 1).
+
+# Verification note
+
+A second-pass subagent initially marked this "confirmed," but its only source was renameforce.com itself — circular, not independent corroboration. The 2025-10 "Agentforce 360" stage is consistent with this bundle's independently-confirmed Sales Cloud and Data Cloud entries (both moved to their Agentforce-branded/360 names on the same October 2025 date), which lends it some plausibility, but the earlier stages (AI Cloud 2023, Einstein 1 2023-2024) were not independently confirmed. This entry remains unverified.

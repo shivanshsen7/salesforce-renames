@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.cdpinstitute.org/news/salesforce-data-cloud-supports-einstein-personalization-new-copilots/"
     title: "Salesforce Data Cloud Supports Einstein Personalization | CDP Institute"
+  - id: corroboration
+    resource: "https://developer.salesforce.com/blogs/2025/04/personalize-and-enrich-mobile-experiences-with-data-cloud-and-agentforce"
+    title: "Salesforce Developer Blog - Einstein Personalization renamed to Salesforce Personalization"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce

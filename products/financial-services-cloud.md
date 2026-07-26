@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://crmxai.com/blog/salesforce-agentforce-rebrand-product-names"
     title: "Every Salesforce Product Name Change in 2026: The Complete Rename Map | CRM\u00d7AI"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/press-releases/2015/08/25/salesforce-introduces-salesforce-financial-services-cloud-transforming-the-client-advisor-relationship-2/"
+    title: "Salesforce - Introduces Financial Services Cloud"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce

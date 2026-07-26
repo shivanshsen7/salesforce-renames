@@ -17,6 +17,10 @@ vendorOrigin: Salesforce
 - **Salesforce Billing** (2018 – 2025)
 - **Revenue Cloud Billing** (2025 – present)
 
+# Discrepancy flagged (disputed)
+
+A second fact-check pass found this framed as a rename, but Salesforce Billing (launched 2018) and Revenue Cloud Billing (introduced Winter 2025) appear to be distinct, coexisting products during a transition period — a succession, not a rename. The actual 2025 rename event was "Revenue Cloud" becoming "Agentforce Revenue Management" at Dreamforce 2025, which is a different product than this entry describes. Treat this entry with caution until a human reviews it directly.
+
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)

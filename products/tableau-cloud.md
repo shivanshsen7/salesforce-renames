@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://research.g2.com/insights/new-features-announced-at-tableau-conference-2022"
     title: Tableau Cloud, Other Advanced Features Announced at Tableau Conference 2022
+  - id: corroboration
+    resource: "https://www.tableau.com/blog/tableau-online-power-tableau-cloud-24154"
+    title: "Tableau Blog - Tableau Online is Now Tableau Cloud"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Tableau

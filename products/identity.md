@@ -21,6 +21,10 @@ vendorOrigin: Salesforce
 
 `Customer Identity & Access Management`, `CIAM`
 
+# Verification note
+
+A second fact-check pass searched Salesforce's official docs, help portal, and press-release archives specifically for a 2013 origin date or a 2021 rename to "Customer Identity and Access Management." Neither was found — current official documentation uses both "Salesforce Identity" and "CIAM" but doesn't describe a formal rename between them. Genuinely unresolved: not confirmed, not refuted.
+
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)

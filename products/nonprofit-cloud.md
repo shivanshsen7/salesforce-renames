@@ -1,7 +1,7 @@
 ---
 type: Product Rename History
-title: Agentforce 360 for Nonprofits
-description: "Originally launched as \"Nonprofit Cloud\" (2017). 1 name change since. Now known as \"Agentforce 360 for Nonprofits\" (as of 2025-10)."
+title: Agentforce Nonprofit
+description: "Originally launched as \"Nonprofit Cloud\" (2017). 1 name change since. Now known as \"Agentforce Nonprofit\" (as of 2025-10)."
 tags: [Industries]
 status: stable
 sources:
@@ -12,18 +12,22 @@ sources:
     resource: "https://www.salesforce.com/news/stories/agentforce-nonprofit-announcement/"
     title: Salesforce Introduces Agentforce Nonprofit with New AI Agents - Salesforce
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-27T00:00:00Z" }
 vendorOrigin: Salesforce
 ---
 
 # Timeline
 
 - **Nonprofit Cloud** (2017 – 2025-10)
-- **Agentforce 360 for Nonprofits** (2025-10 – present)
+- **Agentforce Nonprofit** (2025-10 – present)
 
-# Discrepancy flagged
+# Aliases
 
-An independent fact-check pass found a possible inconsistency: Nonprofit Cloud was renamed to 'Agentforce Nonprofit', not 'Agentforce 360 for Nonprofits' as stated in JSON.
-Not resolved yet — treat the frontmatter above with extra caution until a human checks it.
+`Agentforce 360 for Nonprofits`
+
+# Verification note
+
+An earlier fact-check pass flagged the current name as possibly wrong. A second, independent pass re-read Salesforce's own announcement directly: the product's actual name is "Agentforce Nonprofit" — "Agentforce 360" is umbrella branding for Salesforce's broader October 2025 agentic-enterprise initiative, not this product's name. The frontmatter above has been corrected accordingly; "Agentforce 360 for Nonprofits" is kept as an alias since it's a common description of the same product.
 
 Sourced from the renameforce.com community dataset.[^renameforce]
 

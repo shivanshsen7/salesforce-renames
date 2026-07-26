@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://vantagepoint.io/blog/sf/the-complete-guide-to-salesforces-agentforce-ecosystem-understanding-the-full-product-portfolio-in-2026"
     title: "Salesforce Agentforce Guide 2026: Products, AI Agents & Use Cases"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/press-releases/2016/06/01/salesforce-signs-definitive-agreement-to-acquire-demandware/"
+    title: "Salesforce - Agreement to Acquire Demandware"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Demandware
@@ -34,3 +37,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: October 2025 rename from Commerce GPT to Agentforce Commerce confirmed across multiple sources.
+
+# Verification note
+
+A second pass confirmed Demandware (2004-2016) and Salesforce Commerce Cloud (2016-) directly. "Commerce GPT" (announced June 2023) was a named generative-AI capability, not confirmed as a full product rename stage — and the Agentforce Commerce transition's exact 2025-10 date wasn't independently pinned. Disputed: treat the "Commerce GPT" stage and its dates with caution.

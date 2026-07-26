@@ -32,3 +32,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Aura Components renamed to Lightning Components in 2015 confirmed through contemporaneous Dreamforce presentations.
+
+# Verification note
+
+A second pass found "Aura" and "Lightning" terminology coexisting from October 2014 onward in official docs (Aura referring to the underlying framework, Lightning to the product/component model) rather than a clean sequential rename. No official source documents a discrete 2015 rename event. Disputed — this may not be a rename at all.

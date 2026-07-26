@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.salesforceben.com/salesforce-renames-marketing-cloud-products/"
     title: "Salesforce Renames 6 Marketing Cloud Products | Salesforce Ben"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/press-releases/2013/07/12/salesforce-com-completes-acquisition-of-exacttarget/"
+    title: "Salesforce - Completes Acquisition of ExactTarget"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: ExactTarget

@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://blog.nobledesktop.com/history-of-tableau"
     title: A Brief History of Tableau — by Corey Ginsberg
+  - id: corroboration
+    resource: "https://www.tableau.com/why-tableau/what-is-tableau"
+    title: "Tableau - What is Tableau"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Tableau

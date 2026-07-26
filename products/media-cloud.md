@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://deselect.com/blog/salesforce-media-cloud-the-complete-2026-guide-for-media-entertainment"
     title: "Salesforce Media Cloud: The Complete 2026 Guide - DESelect"
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/introducing-salesforce-industries/"
+    title: "Salesforce - Introducing Salesforce Industries"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Vlocity

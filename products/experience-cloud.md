@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.salesforceben.com/service-cloud-no-more-salesforce-unveils-agentforce-service-at-dreamforce-25/"
     title: "Service Cloud No More? Salesforce Unveils Agentforce Service at Dreamforce '25 | Salesforce Ben"
+  - id: corroboration
+    resource: "https://help.salesforce.com/s/articleView?id=release-notes.rn_experiences_rebrand.htm&language=en_US&type=5"
+    title: "Salesforce Release Notes - Hello Experience Cloud, Farewell Community Cloud"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce
@@ -34,3 +37,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Experience Cloud renamed to Agentforce Service Portal confirmed; timing aligns with October 2025 Dreamforce announcement.
+
+# Verification note
+
+A second pass confirmed the early chain via official sources: Salesforce Communities launched May 2, 2013; renamed to Experience Cloud in Spring 2021 ("Hello Experience Cloud, Farewell Community Cloud"). The final step in this entry — Experience Cloud to "Agentforce Service Portal" (2025-10) — could not be confirmed; official sources instead point to "Agentforce Customer Service Portal" (GA July 2026) as a related but distinctly-named offering. Disputed: treat the final timeline entry with caution.

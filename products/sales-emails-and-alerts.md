@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.linkedin.com/pulse/getting-started-sales-emails-alerts-fka-salesforce-engage-conor-ebbs"
     title: Getting Started with Sales Emails & Alerts (fka Salesforce Engage)
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/press-releases/2015/04/09/salesforce-launches-the-next-generation-of-b2b-marketing-automation/"
+    title: "Salesforce - Sales Cloud Engage Launch"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Pardot
@@ -33,3 +36,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Salesforce Engage was renamed to Sales Emails and Alerts in 2024 to better describe product functionality.
+
+# Verification note
+
+A second pass found the product launched April 9, 2015 as "Sales Cloud Engage," not under a codename "SalesEdge" — no official source confirms that codename existed. The later rename to Sales Emails and Alerts (Spring 2024) is confirmed. Treat the earliest name in this timeline with caution.

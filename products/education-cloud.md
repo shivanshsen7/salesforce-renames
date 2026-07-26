@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://coastalcloud.us/resources/the-ultimate-guide-to-salesforce-product-name-changes-2025/"
     title: "The Ultimate Guide to Salesforce Product Name Changes: 2025 - Coastal"
+  - id: corroboration
+    resource: "https://help.salesforce.com/s/articleView?language=en_US&id=sfdo.education_cloud.htm&type=5"
+    title: "Salesforce Help - Education Cloud"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce

@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.digitalcommerce360.com/2025/04/22/salesforce-agentforce-consumer-goods-agentic-ai/"
     title: How Salesforce is using Agentforce for Consumer Goods
+  - id: corroboration
+    resource: "https://www.salesforce.com/consumer-goods/cloud/"
+    title: "Salesforce - Consumer Goods Cloud"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce

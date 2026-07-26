@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.salesforceben.com/salesforce-acquires-rebel/"
     title: "Salesforce Acquires Rebel, Brings 'Magical' Interactivity to Email Marketing | Salesforce Ben"
+  - id: corroboration
+    resource: "https://techcrunch.com/2018/10/05/salesforce-acquires-rebel-maker-of-interactive-email-services-to-expand-its-marketing-cloud/"
+    title: "TechCrunch - Salesforce Acquires Rebel"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Rebelmail

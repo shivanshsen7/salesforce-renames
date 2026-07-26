@@ -32,19 +32,47 @@ curl -s https://raw.githubusercontent.com/shivanshsen7/salesforce-renames/main/r
 This isn't one dataset taken at face value. `certs/` comes straight from
 Salesforce's own official FAQs. `products/` comes from the
 [renameforce.com](https://renameforce.com) community dataset — cited as a
-source, not silently absorbed as primary fact. Then 7 independent agents
-went looking for a second, unrelated source for every single entry:
+source, not silently absorbed as primary fact. Three verification passes
+followed, each stricter than the last:
 
-- **123 of 132** now carry a second source and a `verified` field —
-  *machine-confirmed*, a step up from community-sourced, though still short
-  of a human review.
-- **4 real discrepancies were caught and flagged in place** rather than
-  quietly marked confirmed — Audience Studio's actual retirement year,
-  Salesforce Functions' actual retirement date, Nonprofit Cloud's actual
-  current name, and Flow Builder's earliest recorded name all disagree with
-  a second source. See `log.md` for the exact notes.
-- The remaining 5 just had no independent source turn up in the search
-  budget — that's "unchecked," not "wrong."
+- **Pass 1** (7 agents, one per product category plus one for all 40 certs):
+  went looking for any second source per entry.
+- **Pass 2**: re-checked everything pass 1 left unresolved, restricted to
+  official Salesforce sources only — never renameforce.com or a general
+  blog.
+- **Pass 3**: audited source *quality*, not just presence, since it turned
+  out every certification's "second source" was a blog aggregator despite
+  the primary source already being official. All 40 certs got re-checked by
+  fetching Salesforce's two canonical FAQ pages live (zero drift found —
+  every name and date matched exactly); 42 products got re-researched in
+  category-grouped batches against official domains only. This pass also
+  caught a subagent citing renameforce.com as its own "confirmation" —
+  circular, not independent — and reverted it.
+
+**Net result**:
+
+- **All 40 certifications** are directly re-confirmed against Salesforce's
+  live official pages.
+- **71 of 92 products** are machine-confirmed against official-domain
+  sources — a step up from community-sourced, though still short of a
+  human review.
+- **8 products are flagged as actively disputed** — a real, sourced
+  conflict, not just an absent second source. The sharpest one: Winter 2026
+  release notes still call two products "Service Cloud" and "Field
+  Service," but this bundle's own live-fetched certification data explicitly
+  renames the matching certs to "Agentforce Service Consultant" and
+  "Agentforce Field Service and Operations Consultant" — two official
+  Salesforce pages that disagree with each other.
+- **13 products remain genuinely unconfirmed** — no official source found
+  either way.
+- Several real errors were caught and corrected along the way — Audience
+  Studio's and Salesforce Functions' actual retirement dates, Nonprofit
+  Cloud's actual current name, an internal date-overlap bug in Code
+  Analyzer, and a product-history chain (CRM Analytics) that had 4 of 9
+  claimed name stages cut because no source anywhere could confirm them.
+
+See `log.md`'s three dated verification entries for the exact reasoning and
+sources behind every one of these.
 
 ## How to navigate this repo
 

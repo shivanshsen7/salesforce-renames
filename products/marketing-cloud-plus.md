@@ -21,6 +21,10 @@ vendorOrigin: ExactTarget
 
 `MC Plus`, `Einstein Engage Plus`, `Einstein Engage Plus on Core`
 
+# Discrepancy flagged (disputed)
+
+A second fact-check pass could not corroborate this entry as stated anywhere official. No source — official or community — uses the name "Marketing Cloud Engagement Einstein Engage Plus on Core." The real 2025 offering appears to be "Marketing Cloud Engagement Plus," a licensing tier introduced in 2025, not a 2026 rename of a 2020 product called "Marketing Cloud Plus." This entry looks likely inaccurate as written; treat the whole timeline with caution until a human reviews it directly.
+
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)

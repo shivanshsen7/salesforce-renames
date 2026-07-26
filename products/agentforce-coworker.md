@@ -32,3 +32,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Agentforce Coworker confirmed as current product name in beta 2026.
+
+# Verification note
+
+A second-pass subagent initially marked this "confirmed," but its only source was renameforce.com itself — the same dataset this bundle is trying to independently verify, so that isn't real corroboration. No independent official source was found. This entry remains unverified.

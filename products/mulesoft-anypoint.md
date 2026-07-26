@@ -31,3 +31,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Anypoint Platform introduced April 3, 2013; no subsequent rename.
+
+# Verification note
+
+A second pass confirmed Anypoint Platform is the current, unchanged product name, but could not independently verify the 2013 founding year from official sources.

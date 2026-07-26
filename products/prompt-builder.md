@@ -28,3 +28,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Prompt Builder confirmed as 2023 rename from Prompt Studio with Summer '23 announcement.
+
+# Verification note
+
+A second pass found no official source confirming "Prompt Studio" ever existed as a product name. Genuinely unconfirmed.

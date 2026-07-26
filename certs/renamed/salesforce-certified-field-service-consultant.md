@@ -15,7 +15,7 @@ generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 oldName: Salesforce Certified Field Service Consultant
 newName: Salesforce Certified Agentforce Field Service and Operations Consultant
 effectiveDate: 2026-07-24
-verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
+verified: { by: claude-sonnet-5/claude-code, at: "2026-07-27T00:00:00Z" }
 ---
 
 Cosmetic rename only — no re-exam, no change to exam content or maintenance requirements. Trailblazer profiles update automatically.[^sf-name-changes-faq]
@@ -25,3 +25,7 @@ Cosmetic rename only — no re-exam, no change to exam content or maintenance re
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: Confirmed renamed to 'Salesforce Certified Agentforce Field Service and Operations Consultant' effective 2026-07-24.
+
+# Direct re-verification
+
+On 2026-07-27 this entry's primary source page was re-fetched live (not re-scraped from an old copy) and checked directly — the full retiring/renamed certification list on that page matches this concept exactly, with no drift. The second `sources` entry above is a community aggregator, kept for convenience, not as the basis for this confirmation.

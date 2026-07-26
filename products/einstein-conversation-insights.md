@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.salesforceben.com/einstein-conversation-insights-analyze-customer-calls-and-coach-your-users/"
     title: "Einstein Conversation Insights: Analyze Customer Calls and Coach Your Users | Salesforce Ben"
+  - id: corroboration
+    resource: "https://help.salesforce.com/s/articleView?id=release-notes.rn_sales_cc_name.htm&language=en_US&type=5"
+    title: "Salesforce Release Notes - Einstein Call Coaching Is Now Einstein Conversation Insights"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce

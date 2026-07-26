@@ -32,3 +32,7 @@ Sourced from the renameforce.com community dataset.[^renameforce]
 Independently cross-checked by an automated fact-check pass.[^corroboration]
 
 [^corroboration]: MuleSoft for Flow: Integration confirmed; successor to/evolution of MuleSoft Composer (2022-2024 timeline).
+
+# Verification note
+
+A second pass found no official source confirming "MuleSoft Composer" was ever renamed to "MuleSoft for Flow: Integration," or that either name is a real Salesforce/MuleSoft product. Genuinely unconfirmed either way.

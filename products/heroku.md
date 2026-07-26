@@ -11,6 +11,9 @@ sources:
   - id: corroboration
     resource: "https://www.heroku.com/"
     title: Heroku
+  - id: corroboration
+    resource: "https://www.heroku.com/about/"
+    title: "Heroku - About"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Heroku
