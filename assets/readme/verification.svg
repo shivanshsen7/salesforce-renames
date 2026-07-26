@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="280" viewBox="0 0 1200 280"
+     role="img" aria-labelledby="verify-title verify-desc">
+  <title id="verify-title">How this bundle is verified</title>
+  <desc id="verify-desc">Two sources — Salesforce's official FAQs and the renameforce.com community dataset — feed 7 independent Haiku fact-check agents, one per product category plus one for all certifications. Of 132 concepts, 123 were independently confirmed by a second source, 4 were flagged with a real discrepancy, and 5 had no second source found in the time budget.</desc>
+
+  <rect width="1200" height="280" rx="24" fill="#0F1114"/>
+
+  <text x="56" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#8B9199">HOW THIS BUNDLE IS VERIFIED</text>
+
+  <!-- Sources -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="56" y="90" width="230" height="60" rx="10" fill="none" stroke="#3A3D42" stroke-width="1.5"/>
+    <text x="171" y="115" font-size="16" font-weight="600" fill="#F4F1EA" text-anchor="middle">Salesforce official</text>
+    <text x="171" y="136" font-size="16" font-weight="600" fill="#F4F1EA" text-anchor="middle">FAQs (certs)</text>
+
+    <rect x="56" y="164" width="230" height="60" rx="10" fill="none" stroke="#3A3D42" stroke-width="1.5"/>
+    <text x="171" y="189" font-size="16" font-weight="600" fill="#F4F1EA" text-anchor="middle">renameforce.com</text>
+    <text x="171" y="210" font-size="16" font-weight="600" fill="#F4F1EA" text-anchor="middle">dataset (products)</text>
+  </g>
+
+  <path d="M 286 120 L 340 150" stroke="#3A3D42" stroke-width="1.5" fill="none"/>
+  <path d="M 286 194 L 340 160" stroke="#3A3D42" stroke-width="1.5" fill="none"/>
+
+  <!-- 7 agents cluster -->
+  <g transform="translate(340 118)">
+    <rect x="0" y="0" width="230" height="64" rx="10" fill="none" stroke="#E8833A" stroke-width="1.5"/>
+    <circle cx="26" cy="20" r="5" fill="#E8833A"/><circle cx="46" cy="20" r="5" fill="#E8833A"/>
+    <circle cx="66" cy="20" r="5" fill="#E8833A"/><circle cx="86" cy="20" r="5" fill="#E8833A"/>
+    <circle cx="106" cy="20" r="5" fill="#E8833A"/><circle cx="126" cy="20" r="5" fill="#E8833A"/>
+    <circle cx="146" cy="20" r="5" fill="#E8833A"/>
+    <text x="115" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="16" font-weight="600" fill="#F4F1EA" text-anchor="middle">7 fact-check agents</text>
+  </g>
+
+  <path d="M 570 150 L 640 150" stroke="#3A3D42" stroke-width="1.5" fill="none"/>
+
+  <!-- Outcome stacked bar -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" transform="translate(660 0)">
+    <text x="0" y="80" font-size="16" fill="#8B9199">132 concepts checked</text>
+
+    <rect x="0" y="100" width="454" height="26" rx="6" fill="#1A1D21"/>
+    <rect x="0" y="100" width="422" height="26" rx="6" fill="#4CAF7D"/>
+    <rect x="422" y="100" width="14" height="26" fill="#E5484D"/>
+    <rect x="436" y="100" width="18" height="26" rx="6" fill="#3A3D42"/>
+
+    <circle cx="10" cy="160" r="5" fill="#4CAF7D"/>
+    <text x="24" y="165" font-size="17" font-weight="600" fill="#F4F1EA">123 machine-confirmed</text>
+
+    <circle cx="10" cy="188" r="5" fill="#E5484D"/>
+    <text x="24" y="193" font-size="17" font-weight="600" fill="#F4F1EA">4 flagged — real discrepancy found</text>
+
+    <circle cx="10" cy="216" r="5" fill="#8B9199"/>
+    <text x="24" y="221" font-size="17" fill="#D8D4C9">5 unverified — no second source found</text>
+  </g>
+</svg>
