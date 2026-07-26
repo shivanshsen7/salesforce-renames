@@ -26,7 +26,7 @@ curl -s https://raw.githubusercontent.com/shivanshsen7/salesforce-renames/main/r
 
 <p align="center">
   <img src="./assets/readme/verification.svg" width="100%"
-       alt="Two sources — Salesforce's official FAQs and the renameforce.com community dataset — feed 7 independent fact-check agents. Of 132 concepts: 123 machine-confirmed, 4 flagged with a real discrepancy, 5 unverified with no second source found.">
+       alt="Two sources — Salesforce's official FAQs and the renameforce.com community dataset — feed three successive verification passes. Of 132 concepts: 111 machine-confirmed, 8 flagged as actively disputed, 13 unconfirmed.">
 </p>
 
 This isn't one dataset taken at face value. `certs/` comes straight from
