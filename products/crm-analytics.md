@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://www.salesforceben.com/tableau-crm-renamed-to-crm-analytics/"
+    title: "Tableau CRM Renamed to CRM Analytics | Salesforce Ben"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: EdgeSpring
 ---
 
@@ -31,3 +35,7 @@ vendorOrigin: EdgeSpring
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: CRM Analytics confirmed as current name following April 2022 rename from Tableau CRM.

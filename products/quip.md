@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://help.salesforce.com/s/articleView?id=xcloud.anywhere_get_started.htm&language=en_US&type=5"
+    title: Salesforce Help - Get Started with Quip (formerly Salesforce Anywhere)
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Quip
 ---
 
@@ -23,3 +27,7 @@ vendorOrigin: Quip
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Quip history confirmed: Salesforce Anywhere (2020) → Quip (2021), supporting full timeline.

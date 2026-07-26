@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://www.salesforce.com/news/stories/life-sciences-cloud-for-customer-engagement-availability/"
+    title: "From Burnout to Breakthroughs: Agentforce Redefines Life Sciences - Salesforce"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce
 ---
 
@@ -24,3 +28,7 @@ vendorOrigin: Salesforce
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Life Sciences Cloud renamed to Agentforce Life Sciences in October 2025 as part of broader Agentforce rebranding.

@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://techcrunch.com/2019/04/17/salesforce-is-buying-mapanything-a-startup-that-raised-over-84-million/"
+    title: "Salesforce is buying MapAnything, a startup that raised over $84 million | TechCrunch"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: MapAnything
 ---
 
@@ -20,3 +24,7 @@ vendorOrigin: MapAnything
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Confirmed MapAnything acquired April 2019, rebranded to Salesforce Maps in August 2019.

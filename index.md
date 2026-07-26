@@ -46,11 +46,22 @@ curl -s https://raw.githubusercontent.com/shivanshsen7/salesforce-renames/main/r
   entry-by-entry — treat it as a good-faith community record, not an
   official Salesforce statement. Each concept's `sources` field says so
   explicitly per OKF's provenance convention.
-- Every concept in this bundle carries `generated: {by: claude-sonnet-5/claude-code, ...}`
-  and no `verified` field — meaning **unverified** trust tier throughout.
-  Nothing here has been human-reviewed line-by-line yet. If you spot an
-  error, open an issue or a PR; a human review pass will add `verified`
-  entries as it happens.
+- Every concept carries `generated: {by: claude-sonnet-5/claude-code, ...}`. A
+  follow-up automated fact-check pass (`claude-haiku-4-5/fact-check-agent`, one
+  agent per product category plus one for all 40 certifications) independently
+  web-searched for a second source per entry: **123 of 132 concepts** now carry
+  a `verified` field and a second `sources` entry, moving them to
+  **machine-confirmed** trust tier — still not the same as **human-reviewed**,
+  since no person has checked these line-by-line yet.
+- **4 discrepancies were found and flagged, not resolved** — each concept has
+  a "Discrepancy flagged" body section and stayed `unverified` rather than
+  being marked confirmed despite having a second source, since that source
+  *contradicts* the original claim rather than confirms it. See `log.md` for
+  the full list. The remaining unflagged entries stayed `unverified` simply
+  because no independent source was found in the time budget, not because
+  anything is wrong with them.
+- If you spot an error, open an issue or a PR — a human review pass will
+  upgrade entries to `verified: {by: human:..., at: ...}` as it happens.
 
 ## Retiring certifications (24)
 

@@ -8,6 +8,9 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://www.salesforceben.com/history-of-salesforce-flow/"
+    title: "History of Salesforce Flow: 2019-2023 | Salesforce Ben"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 vendorOrigin: Informavores
 ---
@@ -22,6 +25,11 @@ vendorOrigin: Informavores
 # Aliases
 
 `Flow Designer`, `Flow`, `Einstein Automation (umbrella)`
+
+# Discrepancy flagged
+
+An independent fact-check pass found a possible inconsistency: Timeline data shows Visual Process Manager (2010-2011), but search sources don't confirm this name exists; progression shown is Visual Workflow→Lightning Flow→Flow Builder.
+Not resolved yet — treat the frontmatter above with extra caution until a human checks it.
 
 Sourced from the renameforce.com community dataset.[^renameforce]
 

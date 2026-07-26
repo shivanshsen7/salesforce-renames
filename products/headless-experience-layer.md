@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://www.salesforce.com/headless/agentic-experience-layer/"
+    title: "Headless Experience Layer | Salesforce"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce
 ---
 
@@ -24,3 +28,7 @@ vendorOrigin: Salesforce
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Headless Experience Layer announced at TDX 2026 (April 2026) confirmed; brief rename from 'Agentforce Experience Layer' verified.

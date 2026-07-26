@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://www.g2.com/products/agentforce-field-service-formerly-salesforce-field-service/reviews"
+    title: G2 - Agentforce Field Service Reviews
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 ---
 
 # Timeline
@@ -25,3 +29,7 @@ generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Agentforce Field Service confirmed as current name (formerly Salesforce Field Service); April 2026 addition of 'and Operations' aligns with latest timeline.

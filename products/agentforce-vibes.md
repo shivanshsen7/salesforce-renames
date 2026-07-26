@@ -8,7 +8,11 @@ sources:
   - id: renameforce
     resource: "https://renameforce.com/renameforce-data.json"
     title: Renameforce dataset
+  - id: corroboration
+    resource: "https://developer.salesforce.com/blogs/2025/10/unleash-your-innovation-with-agentforce-vibes-vibe-coding-for-the-enterprise"
+    title: "Unleash Your Innovation with Agentforce Vibes: Vibe Coding for the Enterprise | Salesforce Developers Blog"
 generated: { by: claude-sonnet-5/claude-code, at: "2026-07-26T00:00:00Z" }
+verified: { by: claude-haiku-4-5/fact-check-agent, at: "2026-07-26T01:00:00Z" }
 vendorOrigin: Salesforce
 ---
 
@@ -24,3 +28,7 @@ vendorOrigin: Salesforce
 Sourced from the renameforce.com community dataset.[^renameforce]
 
 [^renameforce]: Renameforce dataset (community-submitted, not independently verified per-entry)
+
+Independently cross-checked by an automated fact-check pass.[^corroboration]
+
+[^corroboration]: Code Builder renamed to Agentforce Vibes (Vibe Codey) confirmed October 1, 2025; evolved from 2023 browser-based IDE.
